@@ -1,0 +1,30 @@
+{
+	"folders": [{
+		"path": "."
+	}],
+	"settings": {
+		"terminal.integrated.env.windows": {
+			"PATH": "${env:PATH};${workspaceRoot}\\node_modules\\.bin"
+		},
+		"eslint.validate": [{
+				"language": "html",
+				"autoFix": true
+			},
+			{
+				"language": "javascript",
+				"autoFix": true
+			},
+			{
+				"language": "typescript",
+				"autoFix": true
+			},
+			{
+				"language": "typescriptreact",
+				"autoFix": true
+			}
+		],
+		"git.ignoreLimitWarning": true,
+		"typescript.tsdk": "node_modules\\typescript\\lib",
+		"javascript.suggestionActions.enabled": false
+	}
+}

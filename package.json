@@ -1,0 +1,36 @@
+{
+  "name": "react-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "dist": "webpack --mode=production",
+    "lint": "eslint . --ext .ts --ext .tsx --ext .html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ttk1/react-practice.git"
+  },
+  "author": "tama@ttk1.net",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ttk1/react-practice/issues"
+  },
+  "homepage": "https://github.com/ttk1/react-practice#readme",
+  "devDependencies": {
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.9.4",
+    "@typescript-eslint/eslint-plugin": "^2.8.0",
+    "@typescript-eslint/parser": "^2.8.0",
+    "eslint": "^6.6.0",
+    "eslint-plugin-html": "^6.0.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
