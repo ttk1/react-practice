@@ -24,7 +24,6 @@
 			}
 		],
 		"git.ignoreLimitWarning": true,
-		"typescript.tsdk": "node_modules\\typescript\\lib",
-		"javascript.suggestionActions.enabled": false
+		"typescript.tsdk": "node_modules\\typescript\\lib"
 	}
 }

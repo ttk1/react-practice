@@ -6,16 +6,21 @@
   },
   "plugins": [
     "@typescript-eslint",
-    "html"
+    "html",
+    "react"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
-    "sourceType": "module"
+    "sourceType": "module",
+    "ecmaFeatures": {
+        "jsx": true
+    }
   },
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:@typescript-eslint/recommended"
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended"
   ],
   "globals": {
     "Atomics": "readonly",
@@ -26,6 +31,11 @@
     "@typescript-eslint/semi": "error",
     "eol-last": "warn",
     "@typescript-eslint/explicit-function-return-type": "off"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
   },
   "overrides": [{
     "files": ["*.js"],

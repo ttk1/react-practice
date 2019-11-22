@@ -5,6 +5,6 @@ window.onload = () => {
   const element = <h1>Hello, react!</h1>;
   ReactDOM.render(
     element,
-    document.body
+    document.getElementById('root')
   );
 };

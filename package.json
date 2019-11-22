@@ -25,6 +25,7 @@
     "@typescript-eslint/parser": "^2.8.0",
     "eslint": "^6.6.0",
     "eslint-plugin-html": "^6.0.0",
+    "eslint-plugin-react": "^7.16.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "ts-loader": "^6.2.1",
