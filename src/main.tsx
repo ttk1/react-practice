@@ -22,17 +22,16 @@ const Layout = (props: { children: React.ReactNode }) => (
 );
 
 const Home = () => (
-  <React.Fragment>
-    <ListGroup>
-      <ListGroup.Item action href="#hoge">ほげ1</ListGroup.Item>
-      <LinkContainer to="/hoge">
-        <ListGroup.Item action>ほげ2</ListGroup.Item>
-      </LinkContainer>
-      <ListGroup.Item action>
-        <Link to="/hoge">ほげ3</Link>
-      </ListGroup.Item>
-    </ListGroup>
-  </React.Fragment>
+  <ListGroup>
+    <h4 className="text-primary my-2">メニュー</h4>
+    <ListGroup.Item action href="#hoge">ほげ1</ListGroup.Item>
+    <LinkContainer to="/hoge">
+      <ListGroup.Item action>ほげ2</ListGroup.Item>
+    </LinkContainer>
+    <ListGroup.Item action>
+      <Link to="/hoge">ほげ3</Link>
+    </ListGroup.Item>
+  </ListGroup>
 );
 
 const Hoge = () => (
